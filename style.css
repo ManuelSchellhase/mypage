@@ -1,6 +1,27 @@
 .alien{
-    width: 7vw;
+    width: 10vw;
+    animation: spincolor 2s linear infinite;
 }
+@keyframes spincolor{
+    from{
+        transform: rotate(0deg);
+        background: rgb(0, 255, 38);
+    }
+    to{
+        transform: rotate(360deg);
+        background: rgb(255, 0, 0);
+    }
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+
 
 p{
     color: rgb(0, 255, 85);
@@ -19,6 +40,7 @@ p{
 
 .trumps{
     width: 15vw;
+    animation: spin 4s linear infinite;
 }
 
 #trumptimeline1 {
@@ -33,6 +55,7 @@ p{
 
 #trump7{
     width: 45vw;
+    animation: spin 8s linear infinite;
 }
 
 #finalimage{
@@ -54,4 +77,10 @@ body{
     background-image: url("images ordener/background.jpg");
     background-size: cover;
     background-attachment: fixed;
+}
+
+.wrapper{
+    animation: spin 2s linear infinite;
+    transform: scale(0.2);
+    transform-origin: center;
 }
