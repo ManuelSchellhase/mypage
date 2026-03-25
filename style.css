@@ -25,10 +25,19 @@
 
 @keyframes scale{
     from{
-        transform: scale(1);
+        transform: scale(1.5) scaleX(1);
     }
     to{
-        transform: scale(-1);
+        transform: scale(-1.5) scaleX(-1);
+    }
+}
+
+@keyframes moveupdown{
+    from{
+        transform: scaleX(1);
+    }
+    to{
+        transform: scaleX(-1);
     }
 }
 
@@ -65,7 +74,7 @@ p{
 
 #trump7{
     width: 30vw;
-    animation: spin 1s linear infinite;
+    animation: spin 2s linear infinite;
 }
 
 #finalimage{
@@ -91,5 +100,5 @@ body{
     background-image: url("images ordener/background.jpg");
     background-size: cover;
     background-attachment: fixed;
-    animation: spin 2s linear infinite;
+    animation: spin 4s linear infinite;
 }
