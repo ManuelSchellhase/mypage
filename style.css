@@ -1,6 +1,5 @@
 .alien{
     width: 10vw;
-    
 }
 
 p{
@@ -25,6 +24,11 @@ p{
 }
 
 #container{
+    display: flex;
+    justify-content: center;
+}
+
+#alienlink{
     display: flex;
     justify-content: center;
 }
