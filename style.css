@@ -18,6 +18,25 @@ p{
     width: 10vw;
 }
 
+#trumptimeline1 {
+    display: flex;
+    justify-content: center;
+}
+
+#trumptimeline2 {
+    display: flex;
+    justify-content: center;
+}
+
+#trump7{
+    width: 30vw;
+}
+
+#finalimage{
+    display: flex;
+    justify-content: center;
+}
+
 #container{
     display: flex;
     justify-content: center;
@@ -29,5 +48,5 @@ p{
 }
 
 body{
-    background-color: rgb(104, 104, 104);
+    background-image: ;
 }
