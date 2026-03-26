@@ -1,14 +1,9 @@
-.alien{
-    width: 10vw;
-    animation: spinscale 3s ease-out infinite;
-}
-
 @keyframes spinscale{
     from{
         transform: rotate(0deg) scale(0);
     }
     to{
-        transform: rotate(360deg) scale(1.5);
+        transform: rotate(720deg) scale(1.5);
     }
 }
 
@@ -24,29 +19,11 @@
 
 @keyframes scale{
     from{
-        transform: scale(1.5);
-    }
-    to{
         transform: scale(1);
     }
-}
-
-@keyframes moveupdown{
-    from{
-        transform: scaleX(1);
-    }
     to{
-        transform: scaleX(-1);
+        transform: scale(0.7);
     }
-}
-
-p{
-    font-size:5vw ;
-    font-family: myfont;
-    background-color: rgb(0, 0, 255);
-    display: flex;
-    justify-content: center;
-    animation: scale 0.5s linear infinite;
 }
 
 @font-face{
@@ -54,8 +31,23 @@ p{
     src: url(./fonts/BitcountGridDoubleInk-VariableFont_CRSV\,ELSH\,ELXP\,SZP1\,SZP2\,XPN1\,XPN2\,YPN1\,YPN2\,slnt\,wght.ttf);
 }
 
+p{
+    font-size: 10vw;
+    font-family: myfont;
+    background-color: rgb(0, 0, 255);
+    display: flex;
+    justify-content: center;
+    animation: scale 0.5s linear infinite;
+}
+
+.alien{
+    width: 8vw;
+    animation: spinscale 3s ease-out infinite;
+}
+
 .trumps{
-    width: 10vw;
+    width: 15%;
+    border: 5% solid transparent;
     animation: spin 4s linear infinite;
 }
 
@@ -65,8 +57,8 @@ p{
 }
 
 #trump7{
-    width: 30vw;
-    border: 500px solid transparent;
+    width: 50%;
+    border: 10vw solid transparent;
 }
 
 #finalimage{
