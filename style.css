@@ -77,6 +77,23 @@ p{
     justify-content: center;
 }
 
+#image{
+    width: 100vw;
+    animation: fadein 15s linear;
+    position: absolute;
+}
+
+@keyframes fadein{
+    from{
+        transform: scale(1.5);
+        opacity: 0%;
+    }
+    to{
+        transform: scale(1);
+        opacity: 100%;
+    }
+}
+
 #alienlink{
     display: flex;
     justify-content: center;
