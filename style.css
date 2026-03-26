@@ -41,6 +41,11 @@ p{
     animation: scale 0.5s linear infinite;
 }
 
+#about{
+    font-size: 5vw;
+    background-color: transparent;
+}
+
 .alien{
     width: 10vw;
     animation: spinscale 3s ease-out infinite;
