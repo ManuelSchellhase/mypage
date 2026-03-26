@@ -92,10 +92,6 @@ p{
     justify-content: center;
 }
 
-.wrapper{
-    animation: scale 4s linear infinite;
-}
-
 body{
     background-image: url("images ordener/background.jpg");
     background-size: cover;
