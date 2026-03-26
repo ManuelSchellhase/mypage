@@ -32,6 +32,7 @@
 }
 
 p{
+    color: lawngreen;
     font-size: 10vw;
     font-family: myfont;
     background-color: rgb(0, 0, 255);
@@ -41,7 +42,7 @@ p{
 }
 
 .alien{
-    width: 8vw;
+    width: 10vw;
     animation: spinscale 3s ease-out infinite;
 }
 
@@ -72,6 +73,7 @@ p{
 }
 
 #alienlink{
+    color: lawngreen;
     display: flex;
     justify-content: center;
 }
