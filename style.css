@@ -96,5 +96,5 @@ body{
     background-image: url("images ordener/background.jpg");
     background-size: cover;
     background-attachment: fixed;
-    animation: spin 4s linear infinite;
+    /*animation: spin 4s linear infinite;*/
 }
