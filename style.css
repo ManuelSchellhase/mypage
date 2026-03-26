@@ -85,5 +85,6 @@ p{
 body{
     background-image: url("images ordener/background.jpg");
     background-size: cover;
+    background-color: black;
     background-attachment: fixed;
 }
