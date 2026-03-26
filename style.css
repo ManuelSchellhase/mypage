@@ -28,7 +28,7 @@
 
 @font-face{
     font-family: myfont;
-    src: url(./fonts/BitcountGridDoubleInk-VariableFont_CRSV\,ELSH\,ELXP\,SZP1\,SZP2\,XPN1\,XPN2\,YPN1\,YPN2\,slnt\,wght.ttf);
+    src: url(./fonts/Audiowide-Regular.ttf);
 }
 
 p{
@@ -73,7 +73,6 @@ p{
 }
 
 #alienlink{
-    color: lawngreen;
     display: flex;
     justify-content: center;
 }
