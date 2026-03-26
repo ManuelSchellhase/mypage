@@ -13,7 +13,7 @@
     }
 }
 
-/*@keyframes spin{
+@keyframes spin{
     from{
         transform: rotate(0deg);
     }
@@ -21,7 +21,7 @@
         transform: rotate(360deg);
     }
 
-}*/
+}
 
 @keyframes scale{
     from{
@@ -100,5 +100,4 @@ body{
     background-image: url("images ordener/background.jpg");
     background-size: cover;
     background-attachment: fixed;
-    /*animation: spin 4s linear infinite;*/
 }
