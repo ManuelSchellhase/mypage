@@ -1,15 +1,13 @@
 .alien{
     width: 10vw;
-    animation: spincolor 2s linear infinite;
+    animation: spinscale 3s ease-out infinite;
 }
-@keyframes spincolor{
+@keyframes spinscale{
     from{
-        transform: rotate(0deg);
-        background: rgb(0, 255, 38);
+        transform: rotate(0deg) scale(0);
     }
     to{
-        transform: rotate(360deg);
-        background: rgb(255, 0, 0);
+        transform: rotate(360deg) scale(1.5);
     }
 }
 
@@ -25,10 +23,10 @@
 
 @keyframes scale{
     from{
-        transform: scale(1.5) scaleX(1);
+        transform: scale(1.5);
     }
     to{
-        transform: scale(-1.5) scaleX(-1);
+        transform: scale(1);
     }
 }
 
@@ -42,12 +40,12 @@
 }
 
 p{
-    color: rgb(0, 255, 85);
     font-size:5vw ;
     font-family: myfont;
     background-color: rgb(0, 0, 255);
     display: flex;
     justify-content: center;
+    animation: scale 0.5s linear infinite;
 
 }
 
@@ -66,14 +64,9 @@ p{
     justify-content: center;
 }
 
-#trumptimeline2 {
-    display: flex;
-    justify-content: center;
-}
-
 #trump7{
     width: 30vw;
-    animation: spin 2s linear infinite;
+    /*animation: spin 2s linear infinite;*/
 }
 
 #finalimage{
@@ -81,10 +74,9 @@ p{
     justify-content: center;
 }
 
-#container{
+.container{
     display: flex;
     justify-content: center;
-
 }
 
 #alienlink{
