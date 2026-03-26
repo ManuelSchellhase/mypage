@@ -2,6 +2,7 @@
     width: 10vw;
     animation: spinscale 3s ease-out infinite;
 }
+
 @keyframes spinscale{
     from{
         transform: rotate(0deg) scale(0);
@@ -46,7 +47,6 @@ p{
     display: flex;
     justify-content: center;
     animation: scale 0.5s linear infinite;
-
 }
 
 @font-face{
