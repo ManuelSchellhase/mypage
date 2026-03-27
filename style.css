@@ -3,7 +3,7 @@
         transform: rotate(0deg) scale(0);
     }
     to{
-        transform: rotate(720deg) scale(1);
+        transform: rotate(1800deg) scale(1);
     }
 }
 
@@ -63,7 +63,7 @@ p{
 .alien{
     position: relative;
     width: 8vw;
-    animation: spinscale 3s ease-out;
+    animation: spinscale 5s ease-in-out;
 }
 
 .trumps{
