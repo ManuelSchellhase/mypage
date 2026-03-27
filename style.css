@@ -94,12 +94,6 @@ p{
     animation: scale 0.5s linear infinite;
 }
 
-#image{
-    width: 100vw;
-    animation: fadein 15s linear;
-    position: absolute;
-}
-
 #alienlink{
     display: flex;
     justify-content: center;
@@ -127,7 +121,14 @@ a:hover {
     cursor: url("images ordener/UFO2.png"), pointer;
 }
 
+.image{
+    width: 100vw;
+    animation: fadein 15s linear;
+    position: absolute;
+}
+
 body{
+    margin: 0;
     background-image: url("images ordener/background.jpg");
     background-size: cover;
     background-color: black;
