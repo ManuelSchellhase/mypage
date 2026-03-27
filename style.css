@@ -40,6 +40,17 @@
     src: url(./fonts/Audiowide-Regular.ttf);
 }
 
+@keyframes fadein{
+    from{
+        transform: scale(1.5);
+        opacity: 0%;
+    }
+    to{
+        transform: scale(1);
+        opacity: 100%;
+    }
+}
+
 p{
     color: lawngreen;
     font-family: myfont;
@@ -51,7 +62,7 @@ p{
 
 .alien{
     position: relative;
-    width: 7vw;
+    width: 8vw;
     animation: spinscale 3s ease-out;
 }
 
@@ -89,17 +100,6 @@ p{
     position: absolute;
 }
 
-@keyframes fadein{
-    from{
-        transform: scale(1.5);
-        opacity: 0%;
-    }
-    to{
-        transform: scale(1);
-        opacity: 100%;
-    }
-}
-
 #alienlink{
     display: flex;
     justify-content: center;
@@ -119,6 +119,7 @@ p{
 }
 
 #aboutinfo{
+    color: white;
     background-color: transparent;
 }
 
