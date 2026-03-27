@@ -3,7 +3,7 @@
         transform: rotate(0deg) scale(0);
     }
     to{
-        transform: rotate(720deg) scale(1.5);
+        transform: rotate(720deg) scale(1);
     }
 }
 
@@ -47,12 +47,12 @@ p{
     background-color: rgb(0, 0, 255);
     display: flex;
     justify-content: center;
-    /*animation: scale 0.5s linear infinite;*/
 }
 
 .alien{
-    width: 5vw;
-    animation: spinscale 3s ease-out infinite;
+    position: relative;
+    width: 7vw;
+    animation: spinscale 3s ease-out;
 }
 
 .trumps{
@@ -115,6 +115,15 @@ p{
     display: flex;
     justify-content: center;
     animation: spinscale2 3s;
+    height: 100vh;
+}
+
+#aboutinfo{
+    background-color: transparent;
+}
+
+a:hover {
+    cursor: url("images ordener/UFO2.png"), pointer;
 }
 
 body{
@@ -122,4 +131,5 @@ body{
     background-size: cover;
     background-color: black;
     background-attachment: fixed;
+    cursor: url("images ordener/UFO1.png"), auto;
 }
