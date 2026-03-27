@@ -111,7 +111,9 @@ p{
     position: relative;
 }
 
-#aboutmetext{
+.aboutmetext{
+    display: flex;
+    justify-content: center;
     animation: spinscale2 3s;
 }
 
